@@ -9,5 +9,5 @@ docker build -t ahmedmamdouh51099/app:latest .
 # Docker Push
 docker push ahmedmamdouh51099/app:latest
 
-# Docker Logout
-docker logout
+# Test
+echo "Test message: Docker image has been built and pushed successfully."
