@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Docker Login
-echo $DOCKER_PASSWORD | docker login -u ahmedmamdouh51099 --password-stdin
+echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
 
 # Docker Build
 docker build -t ahmedmamdouh51099/app:latest .
